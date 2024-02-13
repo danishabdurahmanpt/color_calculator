@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <h1>CALCULATOR</h1>
+    <div class="container">
+        <form action="">
+            <p>TITAN</p>
+
+            <input type="text" id="screen">
+            <br>
+
+            <input class="button number a" type="button" value="7" onclick="btnClick(value)">
+            <input class="button number b" type="button" value="8" onclick="btnClick(value)">
+            <input class="button number c" type="button" value="9" onclick="btnClick(value)">
+            <input class="button operator d" type="button" value="/" onclick="btnClick(value)">
+
+            <input class="button number e" type="button" value="4" onclick="btnClick(value)">
+            <input class="button number f" type="button" value="5" onclick="btnClick(value)">
+            <input class="button number g" type="button" value="6" onclick="btnClick(value)">
+            <input class="button operator h" type="button" value="*" onclick="btnClick(value)">
+            <br>
+
+            <input class="button number i" type="button" value="1" onclick="btnClick(value)">
+            <input class="button number j" type="button" value="2" onclick="btnClick(value)">
+            <input class="button number k" type="button" value="3" onclick="btnClick(value)">
+            <input class="button operator l" type="button" value="+" onclick="btnClick(value)">
+            <br>
+
+            <input class="button clear" type="button" value="C" onclick="clearScreen()">
+            <input class="button number m" type="button" value="0" onclick="btnClick(value)">
+            <input class="button result n" type="button" value="=" onclick="findResult()">
+            <input class="button operator o" type="button" value="-" onclick="btnClick(value)">
+            <br>
+        </form>
+    </div>
+    <script src="./calc.js"></script>
+</body>
+</html>
